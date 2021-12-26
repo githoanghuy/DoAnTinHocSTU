@@ -141,7 +141,7 @@ bool timTheoMaQuan(DanhSachQuan dsq, int& vt)
 	cin >> tam;
 	for (int i = 0; i < dsq.b; i++)
 	{
-		if (strcp(dsq.data[i].maQuan, tam) == 0)
+		if (strcmp(dsq.data[i].maQuan, tam) == 0)
 		{
 			vt = i;
 			return true;
