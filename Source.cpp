@@ -134,6 +134,7 @@ void xuatDSQ(DanhSachQuan dsq)
 	for (int i = 0; i < dsq.b; i++)
 		xuatQuan(dsq.data[i]);
 }
+//Hoan Thanh
 bool timTheoMaQuan(DanhSachQuan dsq, int& vt)
 {
 	char tam[10];
